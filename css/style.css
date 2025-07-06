@@ -50,6 +50,7 @@ h4{
     color: beige;
 }
 .button{
+    text-align: center;
     background-color: azure;
     border: 1px solid black;
     color:black;
