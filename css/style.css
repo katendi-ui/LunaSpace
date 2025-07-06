@@ -1,0 +1,189 @@
+body{
+    font-family:'Times New Roman', Times, serif ;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 30px;
+    font-size: large;
+    
+}
+header {
+    width: 100%;
+    display: flex;
+     align-items: center;
+    justify-content: space-between ;
+    background-color:black
+}
+ 
+nav {
+    display: flex;
+    margin-right: 200px;
+    color: white;
+    
+    
+}
+
+
+h1{
+    color: white;
+    font-size: 30px;
+    
+}
+
+h3{
+    color: white;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+h4{
+    font-size: 50px;
+    color: beige;
+}
+.button{
+    background-color: azure;
+    border: 1px solid black;
+    color:black;
+    margin-left: 500px;
+    margin-right: 100px ;
+    
+}
+    
+nav ul {
+    display: b;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+section p {
+    display: block;
+} 
+
+img{
+    display: block;
+    width: 250px;
+}
+
+
+
+ ul li{
+   padding: 10px;
+   
+}
+
+.imagem{
+    display: flex;
+    text-align: center;
+}
+
+.a{
+    background-color: black;
+  display: inline-block;
+  margin: 10px;
+  border-radius: 10px;
+  color: white;
+}
+
+footer{
+    text-align: center;
+    margin-top: 40%;
+    font-size: 20px;
+    background-color:black;
+    border-radius:  10%;
+    color: white;
+}
+.p{
+    margin: 160px;
+    font-size: 20px;
+}
+
+.button {
+    background-color: #333;
+    color: #fff;
+    margin: auto;
+    width: 29%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.rr{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+    margin: 0 auto;
+    cursor: pointer;
+    border: none;
+
+    
+}
+
+.p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+   
+}   #navbar{
+                position: absolute;
+                right: 3%;
+                top: 15%;
+        
+            }
+        #navbar ul li{
+                display: inline-block;
+            }
+        .menubar{
+            position: absolute;
+            right: 5%;
+            top: 2%;
+            display:none ;
+        }
+        .menubar>h3{
+            margin: -10px;
+        }
+        @media (max-width:600px) {
+
+            .menubar{
+                display: block;
+            }
+            .navbar{
+                display: none;
+            }
+        }
+@media (max-width){
+    nav .menu-icon{
+        display: block;
+
+    }
+
+    nav{
+        position: fixed;
+        width: 60%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        transform: translateX(-100%);
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        transition: 0.3s ease-in;
+        background-color: #5654b3;
+
+
+    }
+}
