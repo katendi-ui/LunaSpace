@@ -1,0 +1,1 @@
+alert('deseja entrar no modo Katendi?')
