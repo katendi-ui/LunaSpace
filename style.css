@@ -50,7 +50,6 @@ h4{
     color: beige;
 }
 .button{
-    text-align: center;
     background-color: azure;
     border: 1px solid black;
     color:black;
@@ -100,7 +99,6 @@ footer{
     text-align: center;
     margin-top: 40%;
     font-size: 20px;
-    padding: 16px;
     background-color:black;
     border-radius:  10%;
     color: white;
